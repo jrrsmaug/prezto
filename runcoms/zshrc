@@ -13,3 +13,8 @@ fi
 # Customize to your needs...
 alias edit="emacsclient -n"
 
+ps | grep "ssh-agent" > /dev/null
+if [[ $? -ne 0 ]] ; then
+    eval $(ssh-agent -s)
+fi
+
