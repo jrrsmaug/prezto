@@ -13,3 +13,6 @@ fi
 # Customize to your needs...
 alias edit="emacsclient -n"
 
+# maven aliases
+alias mci="mvn clean install"
+
