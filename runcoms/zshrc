@@ -12,6 +12,7 @@ fi
 
 # Customize to your needs...
 alias edit="emacsclient -n"
+alias gco="noglob git checkout"
 
 # maven aliases
 alias mci="mvn clean install"
