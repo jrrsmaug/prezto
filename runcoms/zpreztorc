@@ -35,7 +35,8 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'syntax-highlighting' \
   'history-substring-search' \
-  'prompt'
+  'prompt' \
+  'ssh'
 
 #
 # Autosuggestions
@@ -119,7 +120,7 @@ zstyle ':prezto:module:prompt' theme 'steeef'
 #
 
 # Set the SSH identities to load into the agent.
-# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':prezto:module:ssh:load' identities 'private-id_rsa' 'nov015223-ossh'
 
 #
 # Syntax Highlighting
