@@ -46,6 +46,7 @@ path=(
   /usr/local/{bin,sbin}
   /mingw64/bin
   ~/emacs/bin
+    "/c/Program Files/nodejs"
   $path
 )
 
